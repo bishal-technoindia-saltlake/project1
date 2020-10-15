@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "Roboto Slab";
+    src : url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    
+}
+
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+}
+
+header {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+}
+
+header p{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    max-width: 780px;
+    font-family: "Robot Slab", serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    transform: translate(-50%,-50%);
+
+}
+
+.profile{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.profile img{
+    border-radius: 50%;
+    margin-top: -50px;
+    height: 100px;
+}
+
+.profile span{
+    display: block;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    line-height: 24px;
+}
+
+.profile .author{
+    font-weight: bold;
+
+}
+
+.profile .last_updated{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-top: 110px;
+    width: 66.7%;
+    margin-left: auto;
+    margin-right: auto;
+}
